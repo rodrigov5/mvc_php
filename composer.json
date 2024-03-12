@@ -1,0 +1,24 @@
+{
+    "name": "rodrigov/mvcphp",
+    "description": "MVC com composer no PHP",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/",
+            "core\\": "core/"
+        },
+        "files" : [
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "rodrigov",
+            "email": "rodrigovelosow@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    }
+}
